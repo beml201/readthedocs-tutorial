@@ -4,8 +4,11 @@ build:
    os: "ubuntu-20.04"
    tools:
       python: "3.8"
-       - method: pip
-         path: .
+      
+python:
+   install:
+     - method: pip
+       path: .
          
 
 sphinx:
